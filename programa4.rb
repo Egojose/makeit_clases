@@ -4,7 +4,7 @@ peso = gets.chomp.to_f
 puts "ingrese su altura en metros"
 altura = gets.chomp.to_f
 
-bmi = peso / (altura **2)
+bmi = (peso / (altura **2)).round(2)
 puts bmi
 if bmi < 18.5
 	puts "está bajo de peso"
