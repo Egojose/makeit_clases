@@ -1,6 +1,4 @@
 #haga un programa que le permita agregar numeros telefonicos con sus respectivos usuarios a un hash.
-
-
 usuario = ''
 
 tel = ''
