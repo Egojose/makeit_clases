@@ -11,7 +11,7 @@ usuario = gets.chomp
 
 if usuario != "quit"
 
-puts "ingrese su numero telefonico"
+	puts "ingrese su numero telefonico"
 tel = gets.chomp
 
 agenda [usuario]=tel
